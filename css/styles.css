@@ -105,7 +105,7 @@ font-family: "Roboto", sans-serif;
 
 .header-address-list {
     display: flex;
-   
+    align-items: center;
     gap: 40px;
 
 }
@@ -114,7 +114,7 @@ font-family: "Roboto", sans-serif;
 padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
-    
+    align-items: center;
     line-height: 24px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
