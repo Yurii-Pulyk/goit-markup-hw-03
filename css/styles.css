@@ -135,6 +135,10 @@ padding: 24px 0;
         background: #2e2f42;   }
 
     .hero-title {
+        padding-top: 188px;
+        padding-bottom: 48px;
+        min-width: 496px;
+        margin: 0 auto;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
