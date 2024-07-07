@@ -134,6 +134,12 @@ padding: 24px 0;
     .hero {
         background: #2e2f42;   }
 
+        .button{
+            display: block;
+            margin: 0 auto;
+            padding-bottom: 236px;
+        }
+
     .hero-title {
         padding-top: 188px;
         padding-bottom: 48px;
