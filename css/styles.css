@@ -84,12 +84,12 @@ font-family: "Roboto", sans-serif;
 .header-menu-link{
     color: #2e2f42;
     display: block;
-    padding: 24px;
+    padding: 24px 0;
 }
 
 .header-menu-address {
     color: #2e2f42;
-    margin: auto 0;
+    margin-left: auto;
 }
 .header-menu-address :hover{
     color: #404bbf;
@@ -104,14 +104,14 @@ font-family: "Roboto", sans-serif;
     color: #404bbf;}
 
 .header-address-list {
-    display: flex;
+    display:flex;
     align-items: center;
     gap: 40px;
 
 }
 .header-address-link {
     display: block;
-padding: 24px 0;
+    padding-top: 24px 0;
     font-weight: 400;
     font-size: 16px;
     
@@ -132,18 +132,19 @@ padding: 24px 0;
     /*TODO----Hero---- */
 
     .hero {
-        background: #2e2f42;   }
-
+        background: #2e2f42;   
+       
+    }
         .button{
             display: block;
-            margin: 0 auto;
-            padding-bottom: 236px;
+
+            
         }
 
     .hero-title {
         padding-top: 188px;
-        padding-bottom: 48px;
-        min-width: 496px;
+    padding-bottom: 48px;
+        max-width: 496px;
         margin: 0 auto;
         font-weight: 700;
         font-size: 56px;
@@ -162,6 +163,9 @@ padding: 24px 0;
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
+        padding-bottom: 226px;
+        
+        
     }
     .hero-btn:hover {
         
@@ -189,9 +193,15 @@ padding: 24px 0;
     }
 
     .features-list {
+        padding-top: 130px;
+        padding-bottom: 120px;
+        display: flex;
+        align-items: center;
+        
     }
 
     .feature-item {
+        padding-right: 24px;
     }
 
     .feature-subtitle {
@@ -212,6 +222,8 @@ line-height: 24px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+max-width: 264px;
+padding-top: 8px;
     }
 
 /*TODO----Team---- */
@@ -227,12 +239,21 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
+padding-top: 120px;
+padding-bottom: 72px;
 }
 .team-list {
-    background-color: #FFFFFF;
+    background-color:#f4f4fd;
+    
+        align-items: center;
+        display: flex;
+        gap: 24px;
+        width: calc((100% - 3 * 24px) / 4);
+        padding-bottom: 120px;
+        
 }
 .team-item {
-    background-color: #FFFFFF;
+    background-color:#f4f4fd;;
 }
 .team-img {
 }
@@ -243,6 +264,12 @@ line-height: 24px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding-top: 32px;
+
 }
 .team-subtitle-text {
 font-weight: 400;
@@ -252,9 +279,24 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 
 color: #434455;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding-bottom: 32px;
 }
+.team-blok{
+    border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px 0px;
+width: 264px;
+height: 380px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
+}
+
 /*TODO----portfolio---- */
 .portfolio {
+    background: #fff;
 }
 .portfolio-title {
     font-weight: 700;
@@ -265,10 +307,32 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
+padding-top: 120px;
+padding-bottom: 72px;
+
 }
 .portfolio-list {
+    
 }
+.first-row{
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 2 * 24px) / 3);
+    padding-bottom: 48px;
+} 
+.second-row{
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 2 * 24px) / 3);
+    padding-bottom: 120px;
+}
+
 .portfolio-item {
+    border: 1px solid #e7e9fc;
+width: 360px;
+height: 420px;
 }
 .portfolio-img {
 }
@@ -280,6 +344,9 @@ line-height: 24px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+padding-top: 32px;
+padding-left: 16px;
+padding-bottom: 8px;
 }
 .portfolio-subtitel-text {
     font-weight: 400;
@@ -289,6 +356,8 @@ line-height: 24px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+padding-left: 16px;
+padding-bottom: 16px;
 }
 /*TODO----Footer---- */
 .footer{
@@ -304,6 +373,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 font-family: "Raleway", sans-serif;
+padding-top: 100px;
+padding-bottom: 16px;
+display:inline-block;
 
 }
 .footer-logo-stail{
@@ -325,5 +397,6 @@ line-height: 24px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-
+max-width: 264px;
+padding-bottom: 100px;
 }
