@@ -179,9 +179,7 @@ font-family: "Roboto", sans-serif;
     }
     /*TODO----Feature---- */
     .visually-hidden {
-        
-        
-        
+        visibility: hidden;       
         margin: -1px;
         border: 0;
         
